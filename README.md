@@ -14,30 +14,7 @@ Create a README.md file under the folder to explain the actions and purpose of t
 Create a base folder for base files: policies, placement rules, and bindings.
 Create an overlay folder with at least 1 overlay example on how to kustomize it.
 Create subscription(s) for the overlay examples.
-acm-policies
-├── channel
-│   ├── 01_namespace.yml
-│   └── 02_channel.yml
-├── policies
-│   └── example
-|       ├── USECASE.md
-│       ├── base
-│       │   ├── bindings.yml
-│       │   ├── kustomization.yml
-│       │   ├── placementrule.yml
-│       │   └── policy-namespace-custom.yml
-│       ├── overlays
-│       │   ├── pets
-│       │   │   ├── kustomization.yml
-│       │   │   └── namespaces.yml
-│       │   └── plants
-│       │       ├── kustomization.yml
-│       │       └── namespaces.yml
-│       └── subscriptions
-│           ├── sub-example-base.yml
-│           ├── sub-example-pets.yml
-│           └── sub-example-plants.yml
-└── README.md
+
 
 Using Policies in ACM
 Fork the project and update the channel and namespace yml to leverage your new endpoint.
